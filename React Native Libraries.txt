@@ -1,0 +1,10 @@
+Camera Support
+	https://github.com/lwansbrough/react-native-camera
+Text to Speech
+	https://github.com/ak1394/react-native-tts
+Drawing Diagrams
+	https://github.com/keshavkaul/react-native-sketch-view
+Local Database Storage
+	https://github.com/tomauty/react-native-chart
+	https://news.realm.io/news/introducing-realm-react-native/
+	https://github.com/andpor/react-native-sqlite-storage

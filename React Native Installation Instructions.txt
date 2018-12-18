@@ -1,0 +1,21 @@
+React Native Installation Instructions
+
+  Follow this guide to install Chocolatey and React Native: https://facebook.github.io/react-native/docs/getting-started.html
+  To get through proxies, follow the following links:
+    https://developer.android.com/studio/intro/studio-config.html#proxy
+    https://jhipster.github.io/configuring-a-corporate-proxy/#npm-configuration
+  Start and AVD (Android Virtual Device in Android Studio)
+  Open Powershell as administrator, then run choco install adb
+  Follow this guide to install Atom and Nuclide: https://nuclide.io/docs/editor/setup/
+  To install flow to work in Nuclide, follow these instructions: https://flow.org/en/docs/install/ There is no need to run npm run flow
+
+How to Run a React Native App
+
+  Start AVD (Android Studio) or plug in your Android phone and follow these instructions: https://facebook.github.io/react-native/docs/running-on-device.html
+    If using a physical device, make sure the transfer type is set to file transfer (found in the notifications menu)
+  In Atom, select Nuclide->React Native->Start Packager (Takes a while. Wait for "Loading dependency graph, done.")
+  Open Command Prompt, navigate (cd directoryname) to the root directory of your project, then run react-native run-android. Feel free to close this command prompt once the AVD runs the app
+
+
+To see the logs for the app, in Atom, press Ctrl+Shift+P, then type and select Nuclide Adb Logcat: Start.
+To re-build and run your app after running it the first time, in the AVD, double-tap R. It will refresh.

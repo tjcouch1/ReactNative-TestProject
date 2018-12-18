@@ -1,0 +1,27 @@
+React Native
+	Pros:
+		Node.js-based
+		Very concise
+		Easy to add and use libraries
+		Nuclide package for Atom gives React Native an IDE
+		Easy to run on physical devices
+		Straight-forward testing capabilities https://facebook.github.io/react-native/docs/testing.html
+	Cons:
+		Need to install a number of packages from many sites - Node.js, npm, python2, Expo
+		Required to learn XML-based React Native component system (markup inside code)
+		Some images do not load on AVD
+		Must start emulated android device (AVD) in another program like Android Studio
+		Cryptic error messages
+
+
+Xamarin
+	Pros:
+		C#-based
+		Install in Visual Studio
+		Familiar IDE with everything in one download from debug tools to UI previews
+		Supposedly works well with physical devices
+		Effective testing
+	Cons:
+		Lengthy code
+		Does not always work on emulated device
+		Visual Studio is often clunky and slow
